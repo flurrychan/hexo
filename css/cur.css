@@ -66,6 +66,7 @@ img {
 }
 
 /*彩虹文字*/
+.flink#article-container .flink-list > .flink-list-item,
 #post .post-copyright .post-copyright-info a,
 #footer-wrap,
 #nav #site-name,
