@@ -182,4 +182,5 @@ img {
 /*友情链接颜色*/
 .site-card {
   box-shadow: 0 4px 8px 6px #a866d2b5 !important;
+  border-radius: 0.5em;
 }
