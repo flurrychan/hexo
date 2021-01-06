@@ -179,4 +179,7 @@ img {
   src:url('https://cdn.jsdelivr.net/gh/flurrychan/hexo/fonts/myfont.woff2'); /* 字体文件路径 */
   font-display : swap;
 }
-
+/*友情链接颜色*/
+.site-card {
+  box-shadow: 0 4px 8px 6px #bd31aa8afbb9!important;
+}
