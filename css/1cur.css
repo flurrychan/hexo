@@ -184,3 +184,7 @@ img {
   box-shadow: 0 4px 8px 6px #a866d2b5 !important;
   border-radius: 0.5em;
 }
+/*代码文字*/
+#article-container code, #article-container pre {
+    font-family: MyFont!important;
+}
