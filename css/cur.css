@@ -1,0 +1,246 @@
+body {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur),
+      default;
+}
+a,
+img {
+  cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur),
+      default;
+}
+
+
+/* 滚动条 */
+::-webkit-scrollbar {
+width: 8px;
+height: 8px;
+}
+
+::-webkit-scrollbar-track {
+background-color: rgba(73, 177, 245, 0.2);
+border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: #49b1f5;
+background-image: -webkit-linear-gradient(
+  45deg,
+  rgba(255, 255, 255, 0.4) 25%,
+  transparent 25%,
+  transparent 50%,
+  rgba(255, 255, 255, 0.4) 50%,
+  rgba(255, 255, 255, 0.4) 75%,
+  transparent 75%,
+  transparent
+);
+border-radius: 2em;
+}
+
+::-webkit-scrollbar-corner {
+background-color: transparent;
+}
+
+::-moz-selection {
+color: #fff;
+background-color: #49b1f5;
+}
+
+
+
+/* 头像撒花 */
+.card-info-avatar.is-center:hover {
+background: url(https://cdn.jsdelivr.net/gh/GlumeL/Static@master/handsome/7.3.1/assets/img/snow.gif);
+background-size: cover;
+}
+/*移动端优化：去除归档、标签、最新文章、公告、评论、只保留网站统计*/
+@media screen and (max-width: 900px) {
+.card-info,
+.card-announcement,
+.card-recent-post,
+#card-newest-comments,
+.card-categories,
+.card-tags,
+.card-archives,
+.item-headline {
+  display: none;
+}
+}
+
+/*彩虹文字*/
+#post .post-copyright .post-copyright-info a,
+#footer-wrap,
+#nav #site-name,
+#page-header #site-title,
+#page-header #site-subtitle,
+#post-info .post-title {
+padding-top: 3px;
+background-image: linear-gradient(
+  to left,
+  orangered,
+  orange,
+  gold,
+  lightgreen,
+  cyan,
+  dodgerblue,
+  mediumpurple,
+  hotpink,
+  orangered
+);
+background-size: 110vw;
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+-webkit-animation: rainbowan 60s linear infinite;
+animation: rainbowan 60s linear infinite;
+}
+@-webkit-keyframes rainbowan {
+to {
+  background-position: -2000vw;
+}
+}
+@keyframes rainbowan {
+to {
+  background-position: -2000vw;
+}
+}
+
+/*标题颜色*/
+.fa-search:before {
+color: LightGreen;
+}
+.fa-home:before {
+color: Yellow;
+}
+.fa-archive:before {
+color: LightBlue;
+}
+.fa-tags:before {
+color: #05ebe1;
+}
+.fa-heartbeat:before {
+color: #da16c3;
+}
+.fa-link:before {
+color: #a9fe76;
+}
+.fa-heart:before {
+color: #FF0000;
+}
+.fa-whatsapp-square:before {
+color: #00ff0d;
+}
+.fa-envelope:before {
+color: #8e9fff;
+}
+.fa-map-signs:before {
+color: orange;
+}
+.fa-images:before {
+color: rgb(4, 0, 255);
+}
+.fa-book:before {
+color: rgb(255, 0, 234);
+}
+.fa-comment-dots:before {
+color: rgb(9, 255, 0);
+}
+
+/*卡片颜色*/
+#footer:before {
+background-color: rgba(255, 255, 255, 0)!important;
+}
+.flink#article-container .flink-list > .flink-list-item,
+.blog-slider,
+.layout > div:first-child:not(.recent-posts),
+#recent-posts > .recent-post-item,
+#aside-content .card-widget {
+box-shadow: 0 4px 8px 6px #1ad2d827!important; 
+}
+/*磁贴*/
+.category-list-count:after {
+content: " 篇";
+}
+.fa-book {
+padding-right: 5px;
+}
+.category-list-count {
+font-weight: bold;
+}
+.category-list-item {
+list-style-type: none;
+}
+
+#page-header {
+background-color: #49b1f500;
+background-image: url(https://cdn.jsdelivr.net/gh/flurrychan/CDN/image/15.jpg)!important;
+}
+/*字体*/
+@font-face{
+font-family:'myfont' ;  /* 字体名自定义即可 */
+src:url('https://cdn.jsdelivr.net/gh/flurrychan/hexo/fonts/myfont.woff2'); /* 字体文件路径 */
+font-display : swap;
+}
+/*友情链接颜色*/
+.site-card {
+box-shadow: 0 4px 8px 6px #a866d2b5 !important;
+border-radius: 0.5em;
+}
+/*代码文字*/
+#article-container code, #article-container pre {
+  font-family: MyFont!important;
+}
+
+/*底部信息*/
+
+.github-badge {
+  margin-left: 5px;
+  display: inline-block;
+  border-radius: 4px;
+  text-shadow: none;
+  color: #fff;
+  line-height: 15px;
+  background-color: #abbac3;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.github-badge .badge-subject {
+  display: inline-block;
+  background-color: #4d4d4d;
+  padding: 4px 4px 4px 6px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.github-badge .badge-value {
+  display: inline-block;
+  padding: 4px 6px 4px 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.github-badge .bg-blue {
+  background: linear-gradient(to right, #3a6186, #89253e);
+}
+.github-badge .bg-red {
+  background: linear-gradient(to right, #ac0a5b, #00ff22);
+}
+
+.github-badge .bg-brightgreen {
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.github-badge .bg-orange {
+  background: linear-gradient(to right, #f0c27b, #4b1248);
+}
+
+.github-badge .bg-gradient {
+  background: linear-gradient(to right, #3ca5f6, #a86af9);
+}
+
+.github-badge .bg-blueviolet {
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+}
+
+.github-badge .bg-DNS {
+background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+}
