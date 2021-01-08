@@ -176,7 +176,7 @@ background-image: url(https://cdn.jsdelivr.net/gh/flurrychan/CDN/image/03.jpg)!i
 /*字体*/
 @font-face{
 font-family:'myfont' ;  /* 字体名自定义即可 */
-src:url('https://cdn.jsdelivr.net/gh/flurrychan/hexo/fonts/myfont.woff2'rel="preload"); /* 字体文件路径 */
+src:url('https://cdn.jsdelivr.net/gh/flurrychan/hexo/fonts/myfont.woff2'); /* 字体文件路径 */
 font-display: swap;
 }
 /*友情链接颜色*/
