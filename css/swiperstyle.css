@@ -27,7 +27,7 @@
 
     min-height: 350px;
     height: auto;
-    margin-top: 110px;
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 }
@@ -129,7 +129,7 @@
 }
 @media screen and (max-width: 768px) {
   .blog-slider__img {
-    transform: translateY(-50%);
+    transform: translateY(0%);
     width: 90%;
   }
 }
