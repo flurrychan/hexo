@@ -25,7 +25,7 @@
 @media screen and (max-width: 768px) {
   .blog-slider {
 
-    min-height: 350px;
+    min-height: 400px;
     height: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -232,7 +232,7 @@
   .blog-slider__pagination {
     transform: translateX(-50%);
     left: 50% !important;
-    top: 320px;
+    top: 370px;
     width: 100% !important;
     display: flex;
     justify-content: center;
@@ -271,5 +271,5 @@
 .blog-slider__button{display:none}
 @media screen and (max-width: 768px) {
 	.blog-slider__button{display:inline-flex}
-	.blog-slider__text{margin-bottom:40px}
+	.blog-slider__text{margin-bottom:20px}
 }
