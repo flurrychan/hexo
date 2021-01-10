@@ -117,7 +117,7 @@ color: LightBlue;
 color: #05ebe1;
 }
 .fa-heartbeat:before {
-color: #da16c3;
+color: #66b1ff;
 }
 .fa-link:before {
 color: #a9fe76;
@@ -142,6 +142,9 @@ color: rgb(255, 0, 234);
 }
 .fa-comment-dots:before {
 color: rgb(9, 255, 0);
+}
+.fa-music:before {
+color: #ff8c00;
 }
 
 /*卡片颜色*/
