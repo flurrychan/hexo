@@ -247,8 +247,8 @@ border-radius: 0.5em;
 .github-badge .bg-DNS {
 background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
 }
-/*评论表情*/
+/*评论表情*/ 
 .v[data-class=v] .emoji, .v[data-class=v] .vemoji {
-     max-width: 100%!important; 
+     max-width: 100% !important;  
     display: inline-block!important;
 }
