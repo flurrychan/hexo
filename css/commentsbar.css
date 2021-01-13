@@ -6,10 +6,7 @@
   .fancybox{
      pointer-events: none;
   }
-  /* top-img隐藏 */
-  #page-header {
-    background-image: url(https://cdn.jsdelivr.net/gh/flurrychan/CDN/image/05.jpg) !important;
-  }
+
   /* 宽度小于530px隐藏信封 */
   @media screen and (max-width: 530px) {
     #computer {
