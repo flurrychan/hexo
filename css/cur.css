@@ -253,3 +253,12 @@ background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
      max-width: 100% !important;  
     display: inline-block!important;
 }
+
+/*播放器隐藏*/
+.aplayer.aplayer-fixed.aplayer-narrow.aplayer-body {
+  left:-66px!important;
+  }
+  
+.aplayer.aplayer-fixed.aplayer-narrow.aplayer-body:hover {
+  left:0!important;
+  }  
