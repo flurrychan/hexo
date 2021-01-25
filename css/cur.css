@@ -246,7 +246,7 @@ background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
 }
 /*底部文字颜色*/ 
 #footer-wrap,#footer-wrap a {
-    color: #000;
+color: #000000;
 }
 /*磁贴颜色*/ 
 figure.gallery-group {
@@ -276,7 +276,7 @@ a {
 }
 /*页脚背景*/
 #footer:before {
-    background-color: rgb(0 0 0 / 0%)important;
+background-color:transparent;
   }
 /*logo文字颜色*/
 #page-header #site-subtitle,#page-header #site-title {
