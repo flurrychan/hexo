@@ -245,7 +245,7 @@ border-radius: 0.5em;
 background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
 }
 /*底部文字颜色*/ 
-#footer-wrap a {
+#footer-wrap,#footer-wrap a {
     color: #000;
 }
 /*磁贴颜色*/ 
