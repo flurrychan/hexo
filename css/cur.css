@@ -278,3 +278,7 @@ a {
 #footer:before {
     background-color: rgb(0 0 0 / 0%)important;
   }
+/*logo文字颜色*/
+#page-header #site-subtitle,#page-header #site-title {
+  color: #6cf;
+   }
