@@ -101,7 +101,7 @@ to {
 to {
   background-position: -2000vw;
 }
-}
+}*/
 
 /*标题颜色*/
 .fa-search:before {
@@ -147,7 +147,7 @@ color: rgb(9, 255, 0);
 color: #ff8c00;
 }
 
-/*卡片颜色*/
+/*卡片颜色
 #footer:before {
 background-color: rgba(255, 255, 255, 0)!important;
 }
@@ -157,7 +157,7 @@ background-color: rgba(255, 255, 255, 0)!important;
 #recent-posts > .recent-post-item,
 #aside-content .card-widget {
 box-shadow:0 0px 8px 1px #fff!important; 
-}
+}*/
 /*磁贴*/
 .category-list-count:after {
 content: " 篇";
@@ -184,7 +184,7 @@ font-display: swap;
 }
 /*友情链接颜色*/
 .site-card {
-box-shadow: 0 4px 8px 6px #a866d2b5 !important;
+box-shadow: 0 4px 8px 0 #49b1f57a !important;
 border-radius: 0.5em;
 }
 
@@ -244,6 +244,19 @@ border-radius: 0.5em;
 .github-badge .bg-DNS {
 background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
 }
+/*底部文字颜色*/ 
+#footer-wrap a {
+    color: #000;
+}
+/*磁贴颜色*/ 
+figure.gallery-group {
+    background: #fff0;
+      color: #000000;
+  }
+/*链接颜色*/ 
+a {
+    color: #ff69c3;
+ }
 /*评论表情*/ 
 .v[data-class=v] img,
 .v[data-class=v] .emoji, .v[data-class=v] .vemoji {
