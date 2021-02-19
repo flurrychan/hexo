@@ -279,3 +279,24 @@ background-color:transparent;
 #recent-posts > .recent-post-item {
 background: #ffffffb0!important;
   }
+/*页面配色*/
+hr {
+    border: 2px dashed #ff69b4 !important;
+}
+hr:before {
+  color: #ff69b4 !important;
+  }
+#aside-content #card-toc .toc-content .toc-link.active,
+#vcomment .vbtn, #waline .vbtn {
+  background:#ff69b4 !important;
+   }
+#aside-content .aside-list > .aside-list-item .content > time,
+#aside-content .aside-list > .aside-list-item .content > .name,
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a,
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
+    color: #ff69b4 !important;
+}
+#aside-content .card-info #card-info-btn,
+#rightside > div > button, #rightside > div > a{
+  background-color: #ff69b4 !important;
+}
