@@ -274,11 +274,7 @@ a {
 #footer:before {
 background-color:transparent;
   }
-/*背景透明*/
-#aside-content .card-widget,
-#recent-posts > .recent-post-item {
-background: #ffffffb0!important;
-  }
+
 /*页面配色*/
 hr {
     border: 2px dashed #ff69b4 !important;
