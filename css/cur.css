@@ -296,3 +296,7 @@ hr:before {
 #rightside > div > button, #rightside > div > a{
   background-color: #ff69b4 !important;
 }
+/*菜单栏颜色*/
+#nav a {
+    color: #ff8c00 !important;
+}
