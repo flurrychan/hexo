@@ -47,13 +47,6 @@ color: #fff;
 background-color: #49b1f5;
 }
 
-
-
-/* 头像撒花 */
-.card-info-avatar.is-center:hover {
-background: url(https://cdn.jsdelivr.net/gh/GlumeL/Static@master/handsome/7.3.1/assets/img/snow.gif);
-background-size: cover;
-}
 /*移动端优化：去除归档、标签、最新文章、公告、评论、只保留网站统计*/
 @media screen and (max-width: 900px) {
 .card-info,
