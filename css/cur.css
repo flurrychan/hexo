@@ -69,12 +69,12 @@ background-size: cover;
 }
 
 /*彩虹文字*/
-post .post-copyright .post-copyright-info a,
-footer-wrap,
-nav #site-name,
-page-header #site-title,
-page-header #site-subtitle,
-post-info .post-title {
+#post .post-copyright .post-copyright-info a,
+#footer-wrap,
+#nav #site-name,
+#page-header #site-title,
+#page-header #site-subtitle,
+#post-info .post-title {
 padding-top: 3px;
 background-image: linear-gradient(
   to left,
