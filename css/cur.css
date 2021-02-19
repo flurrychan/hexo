@@ -172,12 +172,12 @@ list-style-type: none;
 background-color: #49b1f500;
 background-image: url(https://cdn.jsdelivr.net/gh/flurrychan/hexo/hexobj.jpg)!important;
 }
-/*字体*/
+/*字体
 @font-face{
 font-family:'myfont' ;  /* 字体名自定义即可 */
 src:url('https://cdn.jsdelivr.net/gh/flurrychan/hexo/fonts/myfont.woff2'); /* 字体文件路径 */
 font-display: swap;
-}
+}*/
 /*友情链接颜色*/
 .site-card {
 box-shadow: 0 4px 8px 0 #49b1f57a !important;
