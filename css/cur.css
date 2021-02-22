@@ -147,12 +147,9 @@ color: #ff8c00;
 #footer:before {
 background-color: rgba(255, 255, 255, 0)!important;
 }
-.flink#article-container .flink-list > .flink-list-item,
-.blog-slider,
-.layout > div:first-child:not(.recent-posts),
-#recent-posts > .recent-post-item,
-#aside-content .card-widget {
-box-shadow:0 0px 8px 1px #fff!important; 
+.site-card, .flink#article-container .flink-list > .flink-list-item, .blog-slider, .layout > div:first-child:not(.recent-posts), #recent-posts > .recent-post-item, #aside-content .card-widget {
+    box-shadow: 0 0px 8px 1px #fff!important;
+    border-radius: 8px;
 }
 /*磁贴*/
 .category-list-count:after {
